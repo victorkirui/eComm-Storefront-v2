@@ -1,6 +1,10 @@
-To run project:
+# Frontend React Minicart StoreFront
 
-1. Clone it
+### How to run: 
+
+To run this project follow these steps
+
+1. Clone 
 2. npm install to Install dependencies
 3. npm run start to start server on localhost:3000
 
