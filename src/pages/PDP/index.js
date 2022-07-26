@@ -75,8 +75,8 @@ class index extends PureComponent {
     if (exist) {
       this.setState((state) => ({
         ...state,
-        selectedOptions: this.state.selectedOptions.map((x) =>
-          x.id === id ? { ...exist, value } : x
+        selectedOptions: this.state.selectedOptions.map((item) =>
+          item.id === id ? { ...exist, value } : item
         ),
       }));
     } else {
